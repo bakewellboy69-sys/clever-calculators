@@ -1,37 +1,57 @@
-<title>Age Calculator – Clever Calculators</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Age Calculator – Clever Calculators</title>
+    <meta name="description" content="Calculate your exact age in years, months, and days instantly. Free online age calculator.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<h1>Age Calculator</h1>
+<div class="container">
 
-<p class="subtitle">Calculate your exact age in years, months and days</p>
+    <h1>Age Calculator</h1>
 
-<!-- Replace calculator divs with your age calculator inputs/buttons -->
+    <nav class="nav">
+        <a href="index.html">Home</a> |
+        <a href="percentage.html">Percentage Calculator</a> |
+        <a href="age.html">Age Calculator</a> |
+        <a href="loan.html">Loan Calculator</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
 
-<section class="content">
+    <p class="subtitle">Calculate your exact age in years, months, and days</p>
 
-<h2>How This Age Calculator Works</h2>
-<p>
-Enter your date of birth and the tool calculates your exact age.
-</p>
+    <div class="card">
+        <h2>Enter Your Date of Birth</h2>
+        <input type="date" id="dob">
+        <button onclick="calculateAge()">Calculate</button>
+        <div class="result" id="ageResult"></div>
+    </div>
 
-<h2>Why Calculate Your Age?</h2>
-<p>
-Useful for documents, insurance, retirement planning, and school applications.
-</p>
+    <section class="content">
+        <h2>How This Age Calculator Works</h2>
+        <p>
+            Enter your date of birth and the tool calculates your exact age in years, months, and days.
+        </p>
 
-<h2>Frequently Asked Questions</h2>
-<h3>Is this accurate?</h3>
-<p>Yes, leap years and exact dates are accounted for.</p>
+        <h2>Why Calculate Your Age?</h2>
+        <p>
+            Useful for official documents, insurance applications, retirement planning, or simply satisfying curiosity.
+        </p>
 
-<h3>Mobile-friendly?</h3>
-<p>Yes, fully responsive.</p>
+        <h2>Frequently Asked Questions</h2>
+        <h3>Is this calculator accurate?</h3>
+        <p>Yes, it accounts for leap years and exact dates.</p>
 
-</section>
+        <h3>Does it work on mobile?</h3>
+        <p>Yes, fully responsive across all devices.</p>
+    </section>
 
+</div>
 
-
-
-
-
-
-
-
+<script src="script.js"></script>
+</body>
+</html>
