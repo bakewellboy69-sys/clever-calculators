@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact – Clever Calculators</title>
+    <meta name="description" content="Contact Clever Calculators. Send us your questions, suggestions, or feedback regarding our free online tools.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Contact Us</h1>
+
+    <nav class="nav">
+        <a href="index.html">Home</a> |
+        <a href="percentage.html">Percentage Calculator</a> |
+        <a href="age.html">Age Calculator</a> |
+        <a href="loan.html">Loan Calculator</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="content">
+
+        <p>We’d love to hear from you! If you have any questions, suggestions, or feedback about our calculators, please reach out below:</p>
+
+        <h2>Email</h2>
+        <p>You can email us at: <a href="mailto:info@clevercalculators.com">info@clevercalculators.com</a></p>
+
+        <h2>Suggestions</h2>
+        <p>If you have ideas for new calculators or features, let us know — we are always looking to improve our site.</p>
+
+        <h2>Support</h2>
+        <p>For any issues with the calculators or the website, contact us using the email above and we will respond as soon as possible.</p>
+
+    </section>
+
+</div>
+
+</body>
+</html>
