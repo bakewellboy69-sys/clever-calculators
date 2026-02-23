@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Percentage Calculator – Calculate Percentages Instantly</title>
+    <meta name="description" content="Free online percentage calculator. Calculate percentage increase, decrease, reverse percentage and more instantly. Simple, fast and accurate.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Percentage Calculator</h1>
+  <nav class="nav">
+    <a href="index.html">Home</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+    <div class="card">
+        <h2>1. What is X% of Y?</h2>
+        <input type="number" id="percent1" placeholder="Enter percentage (e.g. 20)">
+        <input type="number" id="number1" placeholder="Enter number (e.g. 150)">
+        <button onclick="calculateBasic()">Calculate</button>
+        <div class="result" id="result1"></div>
+    </div>
+
+    <div class="card">
+        <h2>2. Percentage Increase</h2>
+        <input type="number" id="increaseOriginal" placeholder="Original value">
+        <input type="number" id="increaseNew" placeholder="New value">
+        <button onclick="calculateIncrease()">Calculate</button>
+        <div class="result" id="result2"></div>
+    </div>
+
+    <div class="card">
+        <h2>3. Percentage Decrease</h2>
+        <input type="number" id="decreaseOriginal" placeholder="Original value">
+        <input type="number" id="decreaseNew" placeholder="New value">
+        <button onclick="calculateDecrease()">Calculate</button>
+        <div class="result" id="result3"></div>
+    </div>
+
+    <div class="ad-placeholder">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3209071697978846"
+     crossorigin="anonymous"></script>
+    </div>
+
+    <section class="content">
+       <h2>What Is a Percentage?</h2>
+    <p>
+        A percentage represents a number as a fraction of 100. It is commonly used
+        in finance, statistics, shopping discounts, tax calculations, exam grading,
+        banking interest rates and everyday budgeting decisions.
+    </p>
+
+    <p>
+        Understanding percentages allows you to quickly compare values, measure
+        change over time and calculate proportions accurately.
+    </p>
+
+    <h2>How To Calculate Percentages</h2>
+    <p>
+        To calculate a basic percentage, multiply the number by the percentage
+        divided by 100.
+    </p>
+
+    <p>
+        Example: 20% of 150 = (20 ÷ 100) × 150 = 30
+    </p>
+
+    <h2>How To Calculate Percentage Increase</h2>
+    <p>
+        Subtract the original value from the new value, divide the result by the
+        original value, then multiply by 100.
+    </p>
+
+    <p>
+        Formula: (New − Original) ÷ Original × 100
+    </p>
+
+    <h2>How To Calculate Percentage Decrease</h2>
+    <p>
+        Subtract the new value from the original value, divide by the original
+        value, then multiply by 100.
+    </p>
+
+    <h2>Real Life Examples</h2>
+    <p>
+        • Calculating discounts during sales<br>
+        • Working out VAT or tax rates<br>
+        • Measuring salary increases<br>
+        • Comparing price changes<br>
+        • Calculating investment returns
+    </p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>How do I calculate 20% of a number?</h3>
+    <p>Multiply the number by 0.20 or divide by 5.</p>
+
+    <h3>How do I calculate percentage change?</h3>
+    <p>Use the formula: (New − Original) ÷ Original × 100.</p>
+
+    <h3>Is this percentage calculator free?</h3>
+    <p>Yes, this tool is completely free to use online.</p>
+
+    <h3>Does this tool work on mobile?</h3>
+    <p>Yes, the calculator is fully responsive and works on smartphones and tablets.</p>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
