@@ -1,28 +1,66 @@
-<title>Loan Calculator – Clever Calculators</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Calculator – Clever Calculators</title>
+    <meta name="description" content="Calculate your monthly loan payments and interest instantly. Free online loan calculator.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<h1>Loan Calculator</h1>
+<div class="container">
 
-<p class="subtitle">Calculate your monthly loan repayments and interest</p>
+    <h1>Loan Calculator</h1>
 
-<!-- Replace with loan calculator inputs/buttons -->
+    <nav class="nav">
+        <a href="index.html">Home</a> |
+        <a href="percentage.html">Percentage Calculator</a> |
+        <a href="age.html">Age Calculator</a> |
+        <a href="loan.html">Loan Calculator</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
 
-<section class="content">
+    <p class="subtitle">Calculate your monthly loan repayments and total interest</p>
 
-<h2>How This Loan Calculator Works</h2>
-<p>
-Enter loan amount, interest rate, and term to calculate monthly payments.
-</p>
+    <div class="card">
+        <h2>Enter Loan Details</h2>
+        <label for="loanAmount">Loan Amount (£):</label>
+        <input type="number" id="loanAmount" placeholder="e.g. 10000">
+        
+        <label for="interestRate">Annual Interest Rate (%):</label>
+        <input type="number" id="interestRate" placeholder="e.g. 5">
+        
+        <label for="loanTerm">Term (Years):</label>
+        <input type="number" id="loanTerm" placeholder="e.g. 3">
+        
+        <button onclick="calculateLoan()">Calculate</button>
+        <div class="result" id="loanResult"></div>
+    </div>
 
-<h2>Why Use a Loan Calculator?</h2>
-<p>
-Helps with budgeting, financial planning, and comparing loans.
-</p>
+    <section class="content">
+        <h2>How This Loan Calculator Works</h2>
+        <p>
+            Enter the loan amount, annual interest rate, and term in years to calculate your monthly payment. 
+            This tool uses standard amortization formulas.
+        </p>
 
-<h2>Frequently Asked Questions</h2>
-<h3>Is this accurate?</h3>
-<p>Yes, it uses standard amortization formulas.</p>
+        <h2>Why Use a Loan Calculator?</h2>
+        <p>
+            Helps with budgeting, financial planning, and comparing loan options before committing.
+        </p>
 
-<h3>Mobile-friendly?</h3>
-<p>Yes, fully responsive.</p>
+        <h2>Frequently Asked Questions</h2>
+        <h3>Is this calculator accurate?</h3>
+        <p>Yes, it calculates based on standard formulas for monthly repayments.</p>
 
-</section>
+        <h3>Does it work on mobile?</h3>
+        <p>Yes, it is fully responsive for phones and tablets.</p>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
